@@ -97,7 +97,7 @@ async function mineCSV(fund) {
 }
 
 describe('Node', function() {
-  this.timeout(50000);
+  this.timeout(5000);
 
   before(async function () {
     await db.open();

@@ -1,4 +1,4 @@
-# Bcoin
+# Bcoin for Bellcoin
 
 __NOTE__: The latest release of bcoin contains a non-backward compatible change
 to the rest API. Please read the [changelog]'s "migrating" section for more
@@ -6,7 +6,7 @@ details.
 
 ---
 
-**Bcoin** is an alternative implementation of the bitcoin protocol, written in
+**Bcoin** is an alternative implementation of the bellcoin protocol, written in
 node.js.
 
 Although still in a beta state, bcoin is well tested and aware of all known
@@ -27,7 +27,7 @@ Try it in the browser: http://bcoin.io/browser.html
 ## Install
 
 ```
-$ git clone git://github.com/bcoin-org/bcoin.git
+$ git clone git://github.com/yutotetuota/bcoin.git
 $ cd bcoin
 $ npm install
 $ ./bin/bcoin
@@ -65,7 +65,7 @@ all code is your original work. `</legalese>`
 See LICENSE for more info.
 
 [purse]: https://purse.io
-[guide]: https://github.com/bcoin-org/bcoin/blob/master/docs/Beginner's-Guide.md
+[guide]: https://github.com/yutotetuota/bcoin/blob/master/docs/Beginner's-Guide.md
 [freenode]: https://freenode.net/
 [irc]: irc://irc.freenode.net/bcoin
-[changelog]: https://github.com/bcoin-org/bcoin/blob/master/CHANGELOG.md
+[changelog]: https://github.com/yutotetuota/bcoin/blob/master/CHANGELOG.md

@@ -1,12 +1,12 @@
 {
   "name": "bcoin",
   "version": "1.0.0-beta.15",
-  "description": "Bitcoin bike-shed",
+  "description": "Bellcoin bike-shed",
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/bcoin.git",
-  "homepage": "https://github.com/bcoin-org/bcoin",
+  "repository": "git://github.com/yutotetuota/bcoin.git",
+  "homepage": "https://github.com/yutotetuota/bcoin",
   "bugs": {
-    "url": "https://github.com/bcoin-org/bcoin/issues"
+    "url": "https://github.com/yutotetuota/bcoin/issues"
   },
   "author": "Fedor Indutny <fedor@indutny.com>",
   "contributors": [
@@ -15,7 +15,7 @@
   ],
   "keywords": [
     "bcoin",
-    "bitcoin",
+    "bellcoin",
     "blockchain",
     "cryptocurrency",
     "wallet"
@@ -29,6 +29,7 @@
     "mongoose": "^4.11.9",
     "n64": "0.0.18",
     "bcoin-mongo-models": "https://github.com/bitpay/bcoin-mongo-models"
+    "bellcoin-yespower": "git://github.com/yutotetuota/node-bellcoin-yespower.git"
   },
   "optionalDependencies": {
     "bcoin-native": "0.0.23",

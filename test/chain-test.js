@@ -121,7 +121,7 @@ chain.on('disconnect', (entry, block) => {
 });
 
 describe('Chain', function() {
-  this.timeout(300000);
+  this.timeout(45000);
 
   before(async function() {
     await db.open();
@@ -206,10 +206,12 @@ describe('Chain', function() {
 
     const block = await cpu.mineBlock(entry);
     assert(block);
+
     let forked = false;
     chain.once('reorganize', () => {
       forked = true;
     });
+
     assert(await chain.add(block));
 
     assert(forked);
