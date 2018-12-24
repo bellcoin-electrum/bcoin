@@ -28,7 +28,7 @@
     "elliptic": "6.4.0",
     "mongoose": "^4.11.9",
     "n64": "0.0.18",
-    "bcoin-mongo-models": "https://github.com/bitpay/bcoin-mongo-models"
+    "bcoin-mongo-models": "https://github.com/bitpay/bcoin-mongo-models",
     "bellcoin-yespower": "git://github.com/yutotetuota/node-bellcoin-yespower.git"
   },
   "optionalDependencies": {
